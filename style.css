@@ -1,0 +1,41 @@
+
+img{
+    height: 1200px;
+
+}
+.img{
+    position: relative;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+}
+.content{
+    position: absolute;
+    top: 0;
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0, 0, 0, 0));
+}
+.po{
+    color: white;
+    padding-bottom: 90px;
+    padding-left: 90px;
+    font-family: Helvetica, sans-serif;
+}
+.trends{
+    color: red;
+    font-size: 'Poppins';
+    font-weight: 500;
+}
+h1{
+    font-size: 'Poppins';
+    font-weight: 700;
+}
+.date{
+    font-size: 'Poppins';
+    font-weight: 300;
+}
